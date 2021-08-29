@@ -1,0 +1,32 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/612a3b257eb902c64ac067dd
+
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Sonny", 
+    "dob": "July 1, 1990",
+    "address": "BLK 69 Hello World Singapore",
+    "description": "Testing POST request - Saravillo"
+}
+
+###
+DELETE http://localhost:3000/users/612a3b88c8fb98854b1850af
+
+
+###
+PATCH http://localhost:3000/users/612a442f32a2bd34004e382c
+Content-Type: application/json
+
+{
+    "name": "Barny Update", 
+    "dob": "July 2, 1990",
+    "address": "BLK 123",
+    "description": "Testing Updated information through Patch method"
+}
+
