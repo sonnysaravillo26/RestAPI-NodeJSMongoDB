@@ -83,7 +83,7 @@ router.delete('/:id', getUser, async (req, res, next) => {
 
 
 
-//GET FUNCTION CALL BACK
+//GET FUNCTION CALL BACK - FIND ID
 async function getUser(req, res, next) {
     let currentUser
 

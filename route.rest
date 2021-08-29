@@ -9,14 +9,14 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "name": "Sonny", 
-    "dob": "July 1, 1990",
+    "name": "Kenzo", 
+    "dob": "July 1, 1991",
     "address": "BLK 69 Hello World Singapore",
     "description": "Testing POST request - Saravillo"
 }
 
 ###
-DELETE http://localhost:3000/users/612a3b88c8fb98854b1850af
+DELETE http://localhost:3000/users/612b32f6deb4951b3fa9b157
 
 
 ###
@@ -24,9 +24,9 @@ PATCH http://localhost:3000/users/612a442f32a2bd34004e382c
 Content-Type: application/json
 
 {
-    "name": "Barny Update", 
+    "name": "Hello", 
     "dob": "July 2, 1990",
-    "address": "BLK 123",
-    "description": "Testing Updated information through Patch method"
+    "address": "BLK 1234",
+    "description": "Testing, to update information through Patch method."
 }
 
