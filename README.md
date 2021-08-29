@@ -48,5 +48,4 @@
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 
-----------------
-# Author : so saravillo
+Author: sonny
