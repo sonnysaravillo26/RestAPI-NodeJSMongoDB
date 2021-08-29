@@ -93,9 +93,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 - CREATE 
     - Description: To create user record to the Database / collection users.
     - HTTP Method: POST
-    - Request:
-        POST http://localhost:3000/users
-        Content-Type: application/json
+    - Request: POST http://localhost:3000/users
+    - Content-Type: application/json
         {
             "name": "newPerson", 
             "dob": "July 1, 1991",
@@ -126,9 +125,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 - UPDATE
     - Description: To update/patch a record to the Database / collection users
     - HTTP Method: PATCH
-    - Request: 
-        PATCH http://localhost:3000/users/<id>
-        Content-Type: application/json
+    - Request: PATCH http://localhost:3000/users/<id>
+    - Content-Type: application/json
 
         {
             "name": "Hello", 
