@@ -95,6 +95,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
     - HTTP Method: POST
     - Request: POST http://localhost:3000/users
     - Content-Type: application/json
+    - Request Body:
         {
             "name": "newPerson", 
             "dob": "July 1, 1991",
@@ -127,7 +128,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
     - HTTP Method: PATCH
     - Request: PATCH http://localhost:3000/users/<id>
     - Content-Type: application/json
-
+    - Request Body:
         {
             "name": "Hello", 
             "dob": "July 2, 1990",
