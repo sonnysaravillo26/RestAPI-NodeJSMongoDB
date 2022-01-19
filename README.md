@@ -1,5 +1,9 @@
 # RESTAPI - Node (Express JS / MongoDB)
-# RYDE 
+
+## USING THE FOLLOWING 
+1. NODE JS 
+2. MongoDB (NoSQL)
+3. CRUD Method
 
 ## DEPENDENCIES
 1. express - for application, equivalent to NodeJS.
